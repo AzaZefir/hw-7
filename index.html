@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hw-7</title>
+    <link rel="stylesheet" href="style/global-style.css">
+    <link rel="stylesheet" href="style/layot.css">
+</head>
+
+<body>
+    <h2>
+        Реализуйте блок, в котором
+        с помощью правила grid-auto-flow
+        измените порядок отображения
+        новых блоков.
+    </h2>
+    <div class="container d-grid grid-auto-flow">
+        <div class="block red">1</div>
+        <div class="block lime">2</div>
+        <div class="block yellow">3</div>
+        <div class="block darkgreen">4</div>
+        <div class="block red">5</div>
+        <div class="block lime">6</div>
+    </div>
+    <h2>
+        Создать блок с функцией
+        repeat и значением auto-fit.
+    </h2>
+    <div class="container d-grid auto-fit">
+        <div class="block red">1</div>
+        <div class="block lime">2</div>
+        <div class="block darkgreen">3</div>
+        <div class="block yellow">4</div>
+        <div class="block darkblue">5</div>
+        <div class="block red">6</div>
+        <div class="block darkblue">7</div>
+    </div>
+    <h2>
+        Создать блок с функцией repeat
+        и значением auto-fill
+    </h2>
+    <div class="container d-grid auto-fill">
+        <div class="block red">1</div>
+        <div class="block lime">2</div>
+        <div class="block darkgreen">3</div>
+        <div class="block yellow">4</div>
+        <div class="block red">5</div>
+        <div class="block darkblue">6</div>
+        <div class="block yellow">7</div>
+    </div>
+    </div>
+    <h2>
+        Создать блок с функцией repeat
+        и значением auto-fit и
+        minmax(200px, 1fr).
+    </h2>
+    <div class="container d-grid auto-fit-min-max">
+        <div class="block lime">1</div>
+        <div class="block yellow">2</div>
+        <div class="block darkgreen">3</div>
+        <div class="block darkblue">4</div>
+        <div class="block lime">5</div>
+        <div class="block red">6</div>
+    </div>
+</body>
+
+</html>
